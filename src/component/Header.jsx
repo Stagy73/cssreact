@@ -1,4 +1,4 @@
-function header() {
+function Header() {
     return (
         <div>
             <h1>Sur les traces d'un monde oublié Par Graham Hancock</h1>
@@ -7,4 +7,4 @@ function header() {
         </div>
     )
 }
-export default header;
+export default Header;
