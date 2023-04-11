@@ -1,0 +1,42 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: hsl(250, 77%, 41%);
+$h1-color: hsl(250, 88%, 13%);
+$h2-color: hsl(123, 84%, 43%);
+$button-color: hsl(72, 74%, 62%);
+$button-hover-color: hsl(72, 74%, 52%);
+$font-size: 20px;
+
+
+
+
+
+
+p {
+    font: 100% $font-stack;
+    color: $primary-color;
+    font-size: $font-size;
+}
+
+h1 {
+    color: #{$h1-color};
+}
+
+h2 {
+    color: #{$h2-color};
+}
+
+button {
+    color: #{$button-color};
+    background-color: #{$button-color};
+    border-color: #{$button-color};
+
+    &:hover {
+        color: #{$button-hover-color};
+        background-color: #{$button-hover-color};
+        border-color: #{$button-hover-color};
+        color: black;
+    }
+
+    color:black;
+
+}
